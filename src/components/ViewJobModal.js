@@ -1,12 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
 import {
   Box,
   Button,
   Grid,
-  Select,
-  MenuItem,
-  FilledInput,
   Dialog,
   DialogTitle,
   DialogContent,
@@ -14,7 +11,6 @@ import {
   makeStyles,
   DialogActions,
   IconButton,
-  CircularProgress
 } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
 import { format } from "date-fns";
